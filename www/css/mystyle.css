@@ -1,0 +1,209 @@
+    /* Устройства с очень маленьким экраном (смартфоны, меньше 768px) */
+    /* Стили CSS (по умолчанию) - для ширины viewport <768px */
+     
+    /* Устроства с маленьким экраном (планшеты, 768px и выше) */
+    @media (min-width: 768px) {
+        /* Стили для устройств с шириной viewport, находящейся в диапазоне 768px - 991px */
+        .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent; }
+        
+        figure {
+            
+            
+            display: inline-block; 
+           
+            padding: 10px; 
+          
+            vertical-align: top; 
+           }
+           figcaption { 
+            text-align: center; 
+           }
+        
+           #futter{
+        
+            height: auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+        }
+         
+        /* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+        @media (min-width: 992px) {
+          /* Стили для устройств с шириной viewport, находящейся в диапазоне 992px - 1199px */
+          figure {
+            
+            display: inline-block; 
+           
+            padding: 10px; 
+          
+            vertical-align: top; 
+           }
+           figcaption { 
+            text-align: center; 
+           }
+        
+           #futter{
+        
+            height: auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+        }
+         
+        /* Устройства с большим экраном (компьютеры, 1200px и выше) */
+        @media (min-width: 1200px) {
+          /* Стили для устройств с шириной viewport >1200px */
+          figure {
+            display: inline-block; 
+           
+            padding: 10px; 
+          
+            vertical-align: top; 
+           }
+           figcaption { 
+            text-align: center; 
+           }
+        
+           #futter{
+        
+            height: auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+        }
+
+#contentinside{
+   
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#firstrow{
+    
+    height: 40px;
+   
+}
+
+.row div {
+    text-align: left;
+    height: auto;
+
+}
+
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+.bg-light {
+    
+}
+
+.bg-dark {
+ 
+}
+
+
+.navbar-light {
+  
+}
+
+.navbar-light {
+   
+}
+
+.text-light{
+    color: #343a40 !important;
+
+}
+
+.text-dark{
+    color: #ffffff !important;
+}
+
+#compatiblelugins {
+    width: 248px;
+    height: 209px;
+    margin: 18px auto;
+}
+#kedeskugop {
+    width: 115px;
+    height: 115px;
+    top: 50px;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    -moz-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    -webkit-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    margin: auto;
+    position: relative;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-animation: cubeRotation 5s infinite;
+    animation: cubeRotation 5s infinite;
+}
+
+@-webkit-keyframes cubeRotation {
+    0%   {    -webkit-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);    }
+    50%   {    -webkit-transform: rotateX(-22deg) rotateY(-128deg) rotateZ(0deg);    }
+    100%   {    -webkit-transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);    }
+}
+/* Standard syntax */
+@keyframes cubeRotation {
+    0%   {    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);    }
+    50%   {    transform: rotateX(-22deg) rotateY(-238deg) rotateZ(0deg);    }
+    100%   {    transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);    }
+}
+#kedeskugop > div {
+    position: absolute;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 112px;
+    height: 112px;
+    float: left;
+    overflow: hidden;
+    opacity: 0.85;
+}
+#skugopnical1 {
+    transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #FFF;
+}
+#skugopnical2 {
+    transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #ffaf1c;
+}
+#skugopnical3 {
+    transform: translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #58d568;
+}
+#skugopnical4 {
+    transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #ed3030;
+}
+#skugopnical5 {
+    transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #1c5ffe;
+}
+#skugopnical6 {
+    transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    background-color: #f2f215;
+}

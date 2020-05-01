@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<meta charset="utf-8">
+<title> Моя личная страница </title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Моя личная страница</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+<style>
+
+
+</style>
+ <meta name="viewport"
+content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light   bg-light text-light">
+      <a class="navbar-brand" href="#">CubeOne X</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">Обо мне</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#predmets">Предметы</a>
+          </li>
+         
+          <input type="button" id="btn" onClick="toggle();toggle2();toggle3();" value="Тема"></input>
+        </ul>
+        <font size="2" class="navbar-text">
+          Стремись не к тому, чтобы добиться успеха, а к тому, чтобы твоя жизнь имела смысл. Альберт Эйнштейн
+        </font>
+      </div>
+    </nav>
+   <p> <a name="aboutme">ОБО МНЕ</a></p>
+  <p><img src="img/5.jpg"  width="500" height="300">
+  Меня зовут Марчук Андрей Александрович. Мне 19 лет, живу в городе Ахтырка, та что из Сумской области.
+  Сам по себе я увлекаюсь музыкой. Освоил такие инструменты как: скрипка, фортепиано, гитара, барабаны.
+  Так же люблю заниматься спортом (спортивными играми). Работаю у себя в городе кальянным мастером.
+  Есть легенда, что название моего города пошло с нелепой ошибки Екатерины II, когда она ошиблась в словосочетании "Ах дырка", и случайно произнесла "Ахтырка".
+  Три слова, которыми меня можно описать - любитель своего дела.
+  Мой E-mail адрес: andrii.marchuck@gmail.com
+  </p>
+ <hr>
+ <!-- Bootstrap КАРУСЕЛЬ -->
+    
+   <div class="container">
+  <h2>Картинки</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/6.jpg" alt="Покровский собор" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="img/7.jpg" alt="Вид Ахтырки 1778 год" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="img/8.jpg" alt="Католическая церковь" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<hr>
+
+<!-- Картинки со мной -->
+ <figure>
+      <img src="img/1.jpg" width="500" height="300" alt="">
+      <figcaption>Я веселый</figcaption>
+     </figure>
+     <figure>
+      <img src="img/2.jpg" width="250" height="350" alt="">
+      <figcaption>Я сейчас</figcaption>
+     </figure>
+     <figure>
+      <img src="img/4.jpg" width="250" height="350" alt="">
+      <figcaption>Я грустный</figcaption>
+     </figure>
+
+     <div id="firstrow" class="row ">
+    <div class="col-2"></div>
+    <div class="col-8"></div>
+     <div class="col-1"></div>
+    <div class="col-1"></div>   
+  </div>
+     
+     <p>
+  ФИЛЬМЫ, КОТОРЫЕ ПОНРАВИЛИСЬ
+</p>
+
+  <p>
+
+    <figure>
+      <img src="https://gidonline.io/img/62614a56a_200x300.jpg" width="200" height="300" alt="">
+      <figcaption>Bohemian rhapsody</figcaption>
+     </figure>
+     <figure>
+      <img src="https://image.kinokrad.co/p/f/1549807192_mstiteli-final.jpeg" width="200" height="300" alt="">
+      <figcaption>Avengers: final</figcaption>
+     </figure>
+     <figure>
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/6f49992f-f78d-4059-9d84-6deeb530fc19/360" width="200" height="300" alt="">
+      <figcaption>Steve Jobs: Empire of temptation</figcaption>
+     </figure>
+     <figure>
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/45314d96-369a-49f4-a0a2-5347d2a7f41a/360" width="200" height="300" alt="">
+      <figcaption>Ford vs Ferrari</figcaption>
+     </figure>
+     
+    <figure>
+      <img src="https://static.hdrezka.ac/i/2014/12/19/xaab0cabe1fafda11w76g.jpg" width="200" height="300" alt="">
+      <figcaption>8 mile</figcaption>
+     </figure>
+     <figure>
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/84934543-5991-4c93-97eb-beb6186a3ad7/360" width="200" height="300" alt="">
+      <figcaption>Joker</figcaption>
+     </figure>
+     <figure>
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/296962f5-fe56-4036-bdc1-2111c065ff69/360" width="200" height="300" alt="">
+      <figcaption>Alita: Fighting angel</figcaption>
+     </figure>
+     <figure>
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/02d70d58-ae4e-4ef4-b886-c215e9e99436/360" width="200" height="300" alt="">
+      <figcaption>Time</figcaption>
+
+     </figure>
+  </p>
+ 
+  <div id="firstrow" class="row ">
+    <div class="col-2"></div>
+    <div class="col-8"></div>
+     <div class="col-1"></div>
+    <div class="col-1"></div>   
+  </div>
+  <hr>
+  <div class="container-fluid">
+    <h1 align="center"><a name="predmets">Мои оценки</a></h1>
+  <div class="table">
+    <table width="100%" cellspacing="0" border="0" align="center">
+        <tbody><tr>
+          <th id="main">Предмет</th>
+          <th id="main">Оценка</th>
+          <th id="main">Преподаватель</th>
+        </tr>
+        <tr>
+          <th id="add">ООП</th>
+          <th id="add">3</th>
+          <th id="add">Водка А.А.</th>
+        </tr>
+        <tr>
+          <th id="add">Дискретная математика</th>
+          <th id="add">3</th>
+          <th id="add">Татаринова О.А.</th>
+        </tr>
+        <tr>
+          <th id="add">Архитектура вычислительных систем</th>
+          <th id="add">3</th>
+          <th id="add">Ломакин А.Н.</th>
+        </tr>
+        <tr>
+          <th id="add">Начертательная геометрия</th>
+          <th id="add">3</th>
+          <th id="add">Федченко А.В.</th>
+        </tr>
+        <tr>
+          <th id="add">Дифференциальные уравнения</th>
+          <th id="add">3</th>
+          <th id="add">Михлин Ю.В.</th>
+        </tr>
+        <tr>
+          <th id="add">Английский язык</th>
+          <th id="add">3</th>
+          <th id="add">Малько Н.А.</th>
+        </tr>
+        <tr>
+          <th id="add">Волейбол</th>
+          <th id="add">3</th>
+          <th id="add">Недбайло И.А.</th>
+        </tr>
+        <tr>
+          <th id="add">Правоведение</th>
+          <th id="add">3</th>
+          <th id="add">Семко А.Н.</th>
+        </tr>
+    </tbody></table>
+  </div>
+   <br>
+    <hr>
+  </div>
+  
+ <div class="footer-copyright text-center py-3"> Andrii Marchuck Inc.:
+    <a href="#"> Переход вверх</a>
+  </div>
+ <script src="js/main.js" type="text/javascript"></script>
+
+ <script>
+ var elements = Array.from(document.getElementsByClassName("bg-light"));
+ var elements2 = Array.from(document.getElementsByClassName("navbar-light"));
+ var elements3 = Array.from(document.getElementsByClassName("text-light"));
+
+function toggle() {
+  for (let i = 0; i < elements.length; i++) {
+      let el = elements[i];
+      if(el.classList.contains('bg-light')){
+          el.classList.add('bg-dark');
+          el.classList.remove('bg-light');
+      } else {
+          el.classList.add('bg-light');
+          el.classList.remove('bg-dark');
+      }
+  }
+}
+
+function toggle2() {
+  for (let i = 0; i < elements2.length; i++) {
+      let el2 = elements2[i];
+      if(el2.classList.contains('navbar-light')){
+          el2.classList.add('navbar-dark');
+          el2.classList.remove('navbar-light');
+      } else {
+          el2.classList.add('navbar-light');
+          el2.classList.remove('navbar-dark');
+      }
+  } 
+}
+
+function toggle3() {
+  for (let i = 0; i < elements3.length; i++) {
+      let el3 = elements3[i];
+      if(el3.classList.contains('text-light')){
+          el3.classList.add('text-dark');
+          el3.classList.remove('text-light');
+      } else {
+          el3.classList.add('text-light');
+          el3.classList.remove('text-dark');
+      }
+  } 
+}
+
+</script>
+<p>3D куб</p> 
+ <div id="compatiblelugins">
+    <div id="kedeskugop">
+  <div id="skugopnical1"></div>
+  <div id="skugopnical2"></div>
+  <div id="skugopnical3"></div>
+  <div id="skugopnical4"></div>
+  <div id="skugopnical5"></div>
+  <div id="skugopnical6"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</HTML>
